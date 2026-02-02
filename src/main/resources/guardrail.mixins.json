@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "me.corebyte.guardrail.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["EntityAccessor"],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

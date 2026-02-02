@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "guardrail",
+	"version": "${version}",
+	"name": "Guardrail",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": ["CoreByte"],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/guardrail/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["me.corebyte.guardrail.Guardrail"]
+	},
+	"mixins": ["guardrail.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
